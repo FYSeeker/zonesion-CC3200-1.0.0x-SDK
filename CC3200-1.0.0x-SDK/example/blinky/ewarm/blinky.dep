@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3762440701</fileChecksum>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\common\gpio_if.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\pinmux.c</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_common_reg.h</file>
+      <file>$PROJ_DIR$\..\pinmux.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\utils.h</file>
+      <file>$PROJ_DIR$\..\..\common\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\Release\Obj\gpio_if.o</file>
+      <file>$PROJ_DIR$\Release\Obj\pinmux.o</file>
+      <file>$PROJ_DIR$\Release\Obj\gpio_if.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\blinky.bin</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\pinmux.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\Release\Exe\blinky.out</file>
+      <file>$PROJ_DIR$\Release\Obj\blinky.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_ints.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_apps_rcm.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\pin.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\prcm.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_map.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_patch.h</file>
+      <file>$PROJ_DIR$\..\..\common\gpio_if.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\gpio_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 23 21 24 20 26 22 28 29 30 25 27 32 33 31 34 35 36 37 38 39 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 23 21 24 20 26 22 28 29 30 25 27 32 4 31 33 36 37 38 39 35 6 40 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\pinmux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 25 32 3 34 37 38 39 35 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 27 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\blinky.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
